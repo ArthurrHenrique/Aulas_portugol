@@ -1,5 +1,5 @@
 Algoritmo "CADASTRO CLIENTE"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina  : [Linguagem e Lógica de Programação]
 // Professor   : Lorrany Marim
 // Descrição   : Aqui você descreve o que o programa faz! (função)
 // Autor(a)    : Arthur Henrique
@@ -25,6 +25,7 @@ inicio
  fimse
 fimfuncao
 
+
 //----------------------------------------------------------------------------
 
 procedimento solicitar_idade
@@ -41,6 +42,7 @@ inicio
   retorne verdadeiro
  fimse
 fimfuncao
+
 
 //----------------------------------------------------------------------------
 
@@ -59,6 +61,7 @@ inicio
  fimse
 fimfuncao
 
+
 //----------------------------------------------------------------------------
 
 
@@ -73,6 +76,7 @@ enquanto (validar_nome(nome)=falso)faca
  solicitar_nome
 fimenquanto
 
+
 solicitar_idade
 enquanto (validar_idade(idade)=falso)faca
  escreval ("---------------------------------------------------------------")
@@ -81,6 +85,7 @@ enquanto (validar_idade(idade)=falso)faca
  solicitar_idade
 fimenquanto
 
+
 solicitar_email
 enquanto (validar_email(email)=falso)faca
  escreval ("---------------------------------------------------------------")
@@ -88,6 +93,7 @@ enquanto (validar_email(email)=falso)faca
  escreval ("---------------------------------------------------------------")
  solicitar_email
 fimenquanto
+
 
 Fimalgoritmo
 
